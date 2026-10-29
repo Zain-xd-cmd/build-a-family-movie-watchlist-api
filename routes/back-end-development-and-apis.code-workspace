@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"chat.disableAIFeatures": true,
+		"freecodecamp-courses.autoStart": false,
+		"freecodecamp-courses.prepare": "touch $(pwd)/.logs/.freecodecamp-os-lockfile",
+		"freecodecamp-courses.scripts.develop-course": "NODE_ENV=development npm run start",
+		"freecodecamp-courses.scripts.run-course": "NODE_ENV=production npm run start",
+		"freecodecamp-courses.workspace.previews": [
+			{
+				"open": true,
+				"showLoader": true,
+				"timeout": 4000,
+				"url": "https://wretched-spooky-werewolf-pjgpg5qxxr7p294v6-8080.app.github.dev"
+			}
+		],
+		"terminal.integrated.defaultProfile.linux": "bash",
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+				"args": [
+					"--init-file",
+					"./bash/sourcerer.sh"
+				],
+				"icon": "terminal-bash",
+				"path": "bash"
+			}
+		}
+	}
+}
